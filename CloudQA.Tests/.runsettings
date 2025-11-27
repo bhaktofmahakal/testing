@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <RunConfiguration>
+    <MaxCpuCount>4</MaxCpuCount>
+    <ResultsDirectory>.\TestResults</ResultsDirectory>
+    <TargetFramework>net8.0</TargetFramework>
+    <TargetPlatform>x64</TargetPlatform>
+    <TestSessionTimeout>3600000</TestSessionTimeout>
+  </RunConfiguration>
+  <NUnit>
+    <Where>test.Category != null</Where>
+    <NumberOfTestWorkers>4</NumberOfTestWorkers>
+    <Verbose>true</Verbose>
+  </NUnit>
+  <LoggerRunSettings>
+    <Loggers>
+      <Logger friendlyName="console" enabled="True">
+        <Configuration>
+          <Verbosity>quiet</Verbosity>
+        </Configuration>
+      </Logger>
+      <Logger friendlyName="trx" enabled="True">
+        <Configuration>
+          <LogFileName>test-results.trx</LogFileName>
+        </Configuration>
+      </Logger>
+    </Loggers>
+  </LoggerRunSettings>
+</RunSettings>
