@@ -1,8 +1,3 @@
-Bilkul bhai — yeh **perfect, clean, professional README** de raha hoon jo tu seedha apne GitHub repo me daal sakta hai.
-
----
-
-# ✅ **README.md — CloudQA Assignment**
 
 ## **CloudQA — Developer Internship Assignment**
 
